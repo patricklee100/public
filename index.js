@@ -6,7 +6,8 @@ var count = 0;
 app.set("port", process.env.PORT || 3000);
 app.get('/', function(req, res) {
    res.write("timer:");
-   res.send("<h1>Patrick Lee, Hello World!</h1>" + count++);
+   res.write("<h1>Patrick Lee, Hello World!</h1>" + count++);
+   res.end();
 });
 
 app.listen(app.get("port"), function() {
