@@ -3,7 +3,7 @@ var express = require("express");
 var app = express();
 var count = 0;
 
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 3001);
 app.use('/', function(req, res) {
    res.setHeader('Content-Type','text/html');
    res.write("timer:");
