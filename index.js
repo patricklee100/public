@@ -7,6 +7,7 @@ app.set("port", process.env.PORT || 3000);
 app.use('/', function(req, res) {
    res.setHeader('Content-Type','text/html');
    res.write("timer:");
+   res.write("new timer: ");
    res.write("<h1>Patrick Lee, Hello World!</h1>" + count++);
    res.end();
 });
