@@ -1,6 +1,6 @@
 firs
 hello world
-232323
+000000000
 third 
 king
 fourth
